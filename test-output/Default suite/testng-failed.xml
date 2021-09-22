@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.CasosDePrueba">
+        <methods>
+          <include name="preparacion"/>
+          <include name="preparacionTests"/>
+          <include name="CP001_FlujoPostulacion_Paso2_ComunaOK"/>
+          <include name="posTests"/>
+        </methods>
+      </class> <!-- tests.CasosDePrueba -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
